@@ -13,3 +13,7 @@ const counter = (state=0,action)=>{
 const myReducers = combineReducers({counter});
 
 export default myReducers;
+
+{/* Now you have your action and reducers. 
+What is left to be created is the store. Before you create the store 
+you will create the components. */}
